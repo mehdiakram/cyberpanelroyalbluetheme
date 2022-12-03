@@ -2,11 +2,10 @@
     Name: ROYAL BLUE
     Version: 1.0
     Author: S M Mehdi Akram
-
-    Tested on CyberPanel 2.3 build 1
-    Served with APACHE-2.0 license
-
-    - CyberPanel repo: https://github.com/mehdiakram/cyberpanelroyalbluetheme/
+	URL: https://www.facebook.com/mehdiakram
+    Tested: CyberPanel 2.3
+    License: APACHE-2.0 license
+	Github: https://github.com/mehdiakram/cyberpanelroyalbluetheme/
 */
 
 :root {
@@ -15,29 +14,26 @@
     --themecolor3: #5A82EA;
     --themecolor4: #FDDB5B;
     --themecolor5: #FAB935;		
-    --bt-background-color: -webkit-linear-gradient(-45deg, #2058DC 0%, #4269E2 30%);
-    --bt-background-color-2: -webkit-linear-gradient(311deg, #4269E2 0%, #5A82EA 30%);
-	
-
-    --panel-text-color: #5346a0;
-
+    --bt-background-color: -webkit-linear-gradient(-45deg, var(--themecolor1) 0%, var(--themecolor2) 30%);
+    --bt-background-color-2: -webkit-linear-gradient(311deg, var(--themecolor2) 0%, var(--themecolor3) 30%);
   }
 
  
-/*****loading*****/
+/***** Loading *****/
 #loading .spinner > div {
     background-color: var(--themecolor1);
 }
 
 
-/*****login*****/
+/***** Login *****/
 .col-login-left {
     background: var(--bt-background-color)!important;
 }
 h1.text-transform-upr.text-center.panel-body.text-bold {
-    color: var(--panel-text-color) !important;
+    color: var(--themecolor1) !important;
 }
 button.btn.btn-success.btn-block.btn-login {
+	font-size:18px;
     background: var(--bt-background-color-2) !important;
     border-color: var(--themecolor1);
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
@@ -55,15 +51,30 @@ button.btn.btn-success.btn-block.btn-login:hover {
 }
 
 
-/***** Header*****/
-.bg-gradient-9 {
+/***** Header *****/
+#page-header{
     background: var(--bt-background-color)!important;   
 }
+#page-header #header-nav-right {position: relative;}
+
+#page-header #header-nav-right:before {
+    position: absolute;
+    height: 43px;
+    background: url(https://mehdiakram.github.io/royaltechnologies/logofull246X50jpg.jpg);
+    content: "";
+    left: -200px;
+    background-repeat: no-repeat;
+    background-size: 200px 43px;
+    margin: 0;
+    padding-left: 200px;
+}
+
 #header-logo .logo-content-big, .logo-content-small {
     filter: sepia(100%);
 }
-a#logout-btn{background: #ff0000;}
-a#logout-btn .icon-power-off:before{color:#ffffff}
+#header-nav-right a#logout-btn{background: #ff0000; transition: all .5s;}
+#header-nav-right a#logout-btn:hover{background: #FAB935;}
+#header-nav-right a#logout-btn .icon-power-off:before{color:#ffffff}
 
 
 /***** Dashboard *****/
@@ -76,26 +87,10 @@ a#logout-btn .icon-power-off:before{color:#ffffff}
 }
 
 
-/***** RESOURCES 
+/***** Resources *****/
 
 .c100 {background-color: var(--themecolor5);}
-
-#redcircle .bar{border-color:#ff0000!important;}
-#redcircle .ng-binding{border-color:#ff0000!important;}
-
-#greencircle .bar{border-color:#2ecc71!important;}
-#greencircle .ng-binding{border-color:#2ecc71!important;}
-
-#pinkcircle .bar{border-color:#2058DC!important;}
-#pinkcircle .ng-binding{color:#2058DC!important;}
-*****/
-
-.c100 {background-color: var(--themecolor5);}
-
-.c100 .bar{
-	border-color: #2058DC;
-}
-
+.c100 .bar{border-color: var(--themecolor1);}
 
 .c100[class*="p7"] .bar, 
 .c100[class*="p8"] .bar,
@@ -135,7 +130,7 @@ a#logout-btn .icon-power-off:before{color:#ffffff}
 .c100[class*="p1"] .bar, 
 .c100[class*="p2"] .bar, 
 .c100[class*="p3"] .bar{
-  border-color: #2058DC!important;
+  border-color: var(--themecolor1)!important;
 }
 
 .c100.p1:hover>span, 
@@ -150,12 +145,8 @@ a#logout-btn .icon-power-off:before{color:#ffffff}
 .c100[class*="p1"]:hover>span, 
 .c100[class*="p2"]:hover>span, 
 .c100[class*="p3"] :hover>span{
-  color: #2058DC!important;
+  color: var(--themecolor1)!important;
 }
-
-
-
-
 
 
 
@@ -181,17 +172,22 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 
 /***** Button *****/
+.btn{
+	transition: all .5s;
+}
 .btn-primary {
     background: #ffffff;
     border-color: var(--themecolor2);
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
     color: var(--themecolor1);
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover, 
+.btn-primary:focus {
     background: var(--bt-background-color-2);
     border-color: var(--themecolor1);
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
+	
 }
 .btn-primary:active {
     background: var(--bt-background-color-2);
@@ -204,7 +200,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     border-color: var(--themecolor1) !important;
     background: var(--bt-background-color-2) !important;
 }
-.btn-purple.active, .btn-purple:focus, .btn-purple:hover {
+.btn-purple.active, 
+.btn-purple:focus, 
+.btn-purple:hover {
     background: #ffffff !important;
     border-color: var(--themecolor2) !important;
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
@@ -218,11 +216,22 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 }
 
 
-/***** sidebar *****/
-#sidebar-menu {
-    background: #ffffff;
-    box-shadow: rgb(136 165 191 / 48%) 1.95px 1.95px 2.6px;
+/***** Sidebar *****/
+#page-sidebar, #header-logo{
+	box-shadow: var(--themecolor3)  1px 3px 10px;
 }
+#sidebar-menu {
+    background: #eaeaf157;
+    box-shadow: var(--themecolor3)  1px 3px 10px;
+}
+
+#sidebar-menu .header span {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: var(--themecolor1);
+}
+
 #sidebar-menu > li > a {
     padding: 5px 10px 0 0;
     font-size: 14px;
@@ -230,10 +239,16 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     background: var(--themecolor3);
 	color: #ffffff;
 	margin-bottom: 3px;
+	transition: all .5s;
 }
 #sidebar-menu > li > a#sidebar-menu-item-server-ip-address {
     background: var(--themecolor4);
 }
+
+#sidebar-menu > li > a#sidebar-menu-item-server-ip-address span {
+    color: #ff0000!important;
+}
+
 #sidebar-menu-item-server-ip-address{
 	color: #ff0000;
 }
@@ -241,13 +256,15 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: #ffffff;
 	opacity: 1;
 }
-#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
+#page-sidebar ul li.sfHover > a.sf-with-ul, 
+#page-sidebar ul li a:hover {
     border-color: #ffffff;
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
     background: var(--themecolor5);
     color: #fff;
 }
-#page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
+#page-sidebar ul li.sfActive > a.sf-with-ul, 
+#page-sidebar ul li a:active {
     border-color: #ffffff;
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
     color: var(--themecolor3);
@@ -255,10 +272,21 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 #sidebar-menu li .sidebar-submenu ul li a:hover, 
 #sidebar-menu li .sidebar-submenu ul li a.sfActive{
-	background: var(--themecolor4);
+	background: var(--themecolor1);
 	color: #fff;
 }
-/*****list*****/
+
+#sidebar-menu > li > a .bs-badge, 
+#sidebar-menu > li > a .bs-label {
+    top: 14px;
+}
+
+
+
+
+
+
+/***** List *****/
 .panel.col-md-12.ng-scope {
     box-shadow: rgb(62 69 125 / 5%) 0px 4px 12px !important;
 }
@@ -269,13 +297,22 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: var(--themecolor1);
     font-weight: 600;
 }
-#page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
+#page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, 
+.content-box-header.bg-default>.ui-tabs-nav li>a:hover, 
+.content-box-header.bg-gray>.ui-tabs-nav li>a:hover, 
+.content-box-header.bg-white>.ui-tabs-nav li>a:hover, 
+.features-tour-box h3, 
+.font-primary, 
+.tabs-nav li a:hover, 
+.tabs-nav li.active a,
+table.dataTable thead th.sorting_asc:after, 
+table.dataTable thead th.sorting_desc:after {
     background: var(--themecolor5);
     color: #fff;
 }
 
 
-/*badge color*/
+/***** Badge color *****/
 .badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
     background: var(--themecolor4);
     border-color: var(--themecolor3);
@@ -283,22 +320,38 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 
 
-/*Royal Technologies*/
+/***** Royal Technologies *****/
+.col-login-left,
+h1.text-transform-upr.text-center.panel-body.text-bold img {
+    display: none;
+}
+
+.col-login-right {
+    width: 100%;
+}
+
 h1.text-transform-upr.text-center.panel-body.text-bold {
     font-size: 0;
-	padding: 0;
+    padding: 0;
+    text-transform: inherit;
+    width: 100%;
+    position: relative;
 }
 
 h1.text-transform-upr.text-center.panel-body.text-bold:before {
-	content: "Royal Technologies";
-    font-size: min(max(18px, 4vw), 26px);
-    color: var(--panel-text-color) !important;
+    content: "www.royaltechbd.com";
+    font-size: 20px;
+    color: var(--themecolor1) !important;
     padding: 0;
-    background: url(https://mehdiakram.github.io/Royal-Technologies/logo%20full.png);
+    background: url(https://mehdiakram.github.io/royaltechnologies/logofull246X50jpg.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    padding-top: 50px;
-    background-size: 200px 41px;
+    padding-top: 43px;
+    background-size: 200px 42px;
+    position: absolute;
+    top: -90px;
+    left: 0;
+    right: 0;
 }
 
 
@@ -306,6 +359,7 @@ h1.text-transform-upr.text-center.panel-body.text-bold:before {
     margin: 0 auto;
     max-width: 350px;
     width: 90%;
+	padding: 0;
 }
 
 #loginForm .mx-30 {
@@ -316,13 +370,38 @@ h1.text-transform-upr.text-center.panel-body.text-bold:before {
 
 
 
+/***** Show Logout for Mobile & Tab *****/
+@media only screen and (max-width: 600px){
+#header-nav-right #logout-btn {display: block;}
 
+#page-header #header-nav-right:before {
+    height: 33px;
+    right: 0;
+    background-size: 150px 33px;
+    margin: 0;
+    padding-left: 150px;
+    top: 0;
+    left: initial;
+}
 
-@media only screen and (max-width: 410px){
-#header-nav-right #logout-btn, #notifications-btn {
+#header-nav-right .header-btn {
+    border: transparent solid 2px;
+    border-radius: 4px;
+    width: 26px;
+    height: 26px;
+    line-height: 21px;
     display: block;
+    text-align: center;
+    position: relative;
 }
+
+#page-header #header-nav-right {
+    padding: 40px 0px 0 0;
+    margin: 5px 5px 0 0;
+    max-width: calc(100% - 143px);
+	float: right;
+	overflow: hidden;
 }
 
 
-
+}
