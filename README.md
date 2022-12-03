@@ -1,8 +1,8 @@
 # CyberPanel Royal Blue Themes
 
 Themes you can apply to CyberPanel and make it look good :D
-
 *NOTE: Tested on CyberPanel 2.3
+*NOTE: Just change logo url & website address for your branding
 
 ## How to Install
 
