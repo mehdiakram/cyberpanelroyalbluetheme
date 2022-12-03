@@ -6,12 +6,11 @@ Themes you can apply to CyberPanel and make it look good :D
 
 ## How to Install
 
-1. Go to the folder of your chosen theme
-2. Click design.css
-3. Copy everything in the file.
-4. Go to CyberPanel > Design
-5. Paste the contents of design.css to the text area.
-6. Save.
+1. Click & open design.css
+2. Copy everything in the file.
+3. Go to CyberPanel > Design
+4. Paste the contents of design.css to the text area.
+5. Save.
 
 ## How to Remove
 
