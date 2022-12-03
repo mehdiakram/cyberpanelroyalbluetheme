@@ -9,12 +9,10 @@ Themes you can apply to CyberPanel and make it look good :D
 1. Click & open design.css
 2. Copy everything in the file.
 3. Go to CyberPanel > Design
-4. Paste the contents of design.css to the text area.
-5. Save.
+4. Remove everything from the `Design` text area.
+5. Paste the contents of design.css to the text area.
+6. Save.
 
-## How to Remove
-
-Remove everything from the `Design` text area.
 
 # Preview:
 ## Desktop Dashboard
