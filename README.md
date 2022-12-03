@@ -1,11 +1,11 @@
 # CyberPanel Royal Blue Themes
-
 Themes you can apply to CyberPanel and make it look good :D
-*NOTE: Tested on CyberPanel 2.3
-*NOTE: Just change logo url & website address for your branding
+
+## Note 
+1. Tested on CyberPanel 2.3
+2. Just change logo url & website address for your branding
 
 ## How to Install
-
 1. Click & open design.css
 2. Copy everything in the file.
 3. Go to CyberPanel > Design
@@ -14,7 +14,7 @@ Themes you can apply to CyberPanel and make it look good :D
 6. Save.
 
 
-# Preview:
+# Preview
 ## Desktop Dashboard
 ![image](https://github.com/mehdiakram/cyberpanelroyalbluetheme/blob/ec7c48484ed05f898fa74fb539c7867ef3cc8900/Desktop%20Dashboard.jpg)
 
@@ -29,7 +29,6 @@ Themes you can apply to CyberPanel and make it look good :D
 
 
 ## Troubleshooting
-
 Try clearing cache on your web browser.
 
 ### Developed by [Royal Technologies](https://www.facebook.com/RoyalTechnologies/)
