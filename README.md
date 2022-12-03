@@ -1,5 +1,5 @@
 # CyberPanel Royal Blue Theme
-Themes you can apply to CyberPanel and make it look good :D
+This theme you can apply to CyberPanel and make it look good :D
 
 ## Note 
 1. Tested on CyberPanel 2.3
