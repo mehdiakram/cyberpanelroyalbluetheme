@@ -1,9 +1,8 @@
-# CyberPanel Themes
+# CyberPanel Royal Blue Themes
 
 Themes you can apply to CyberPanel and make it look good :D
 
-*NOTE: If you are running CyberPanel 2.1.1 and below use the `legacy` branch.* <br>
-*NOTE 2: This doesn't override the login and file manager CSS like the `legacy` branch. Since it is not supported to do so yet.*
+*NOTE: Tested on CyberPanel 2.3
 
 ## How to Install
 
@@ -18,8 +17,22 @@ Themes you can apply to CyberPanel and make it look good :D
 
 Remove everything from the `Design` text area.
 
+# Preview:
+## Desktop Dashboard
+![image](https://github.com/mehdiakram/cyberpanelroyalbluetheme/blob/ec7c48484ed05f898fa74fb539c7867ef3cc8900/Desktop%20Dashboard.jpg)
+
+## Desktop Login
+![image](https://github.com/mehdiakram/cyberpanelroyalbluetheme/blob/ec7c48484ed05f898fa74fb539c7867ef3cc8900/Desktop%20Login.jpg)
+
+## Mobile Dashboard
+![image](https://github.com/mehdiakram/cyberpanelroyalbluetheme/blob/ec7c48484ed05f898fa74fb539c7867ef3cc8900/Mobile%20Dashboard.jpg)
+
+## Mobile Login
+![image](https://github.com/mehdiakram/cyberpanelroyalbluetheme/blob/ec7c48484ed05f898fa74fb539c7867ef3cc8900/Mobile%20Login.jpg)
+
+
 ## Troubleshooting
 
 Try clearing cache on your web browser.
 
-### CyberPanel by [usmannasir](https://github.com/usmannasir)
+### Developed by [Royal Technologies](https://www.facebook.com/RoyalTechnologies/)
