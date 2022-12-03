@@ -1,0 +1,328 @@
+/*
+    Name: ROYAL BLUE
+    Version: 1.0
+    Author: S M Mehdi Akram
+
+    Tested on CyberPanel 2.3 build 1
+    Served with APACHE-2.0 license
+
+    - CyberPanel repo: https://github.com/mehdiakram/cyberpanelroyalbluetheme/
+*/
+
+:root {
+    --themecolor1: #2058DC;
+    --themecolor2: #4269E2;
+    --themecolor3: #5A82EA;
+    --themecolor4: #FDDB5B;
+    --themecolor5: #FAB935;		
+    --bt-background-color: -webkit-linear-gradient(-45deg, #2058DC 0%, #4269E2 30%);
+    --bt-background-color-2: -webkit-linear-gradient(311deg, #4269E2 0%, #5A82EA 30%);
+	
+
+    --panel-text-color: #5346a0;
+
+  }
+
+ 
+/*****loading*****/
+#loading .spinner > div {
+    background-color: var(--themecolor1);
+}
+
+
+/*****login*****/
+.col-login-left {
+    background: var(--bt-background-color)!important;
+}
+h1.text-transform-upr.text-center.panel-body.text-bold {
+    color: var(--panel-text-color) !important;
+}
+button.btn.btn-success.btn-block.btn-login {
+    background: var(--bt-background-color-2) !important;
+    border-color: var(--themecolor1);
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+button.btn.btn-success.btn-block.btn-login:hover {
+    background: #ffffff !important;
+    border-color: var(--themecolor2) !important;
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: var(--themecolor1);
+}
+.form-group .input-group select.form-control:focus, 
+.form-group .input-group input.form-control:focus, button.btn.btn-login {
+    border: 1px solid rgb(125 62 111 / 38%);
+}
+
+
+/***** Header*****/
+.bg-gradient-9 {
+    background: var(--bt-background-color)!important;   
+}
+#header-logo .logo-content-big, .logo-content-small {
+    filter: sepia(100%);
+}
+a#logout-btn{background: #ff0000;}
+a#logout-btn .icon-power-off:before{color:#ffffff}
+
+
+/***** Dashboard *****/
+.mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+}
+.mx-10.col-lg-9.panel.col-md-push-50 {
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+
+}
+
+
+/***** RESOURCES 
+
+.c100 {background-color: var(--themecolor5);}
+
+#redcircle .bar{border-color:#ff0000!important;}
+#redcircle .ng-binding{border-color:#ff0000!important;}
+
+#greencircle .bar{border-color:#2ecc71!important;}
+#greencircle .ng-binding{border-color:#2ecc71!important;}
+
+#pinkcircle .bar{border-color:#2058DC!important;}
+#pinkcircle .ng-binding{color:#2058DC!important;}
+*****/
+
+.c100 {background-color: var(--themecolor5);}
+
+.c100 .bar{
+	border-color: #2058DC;
+}
+
+
+.c100[class*="p7"] .bar, 
+.c100[class*="p8"] .bar,
+.c100[class*="p9"] .bar,
+.c100[class*="p10"] .bar{
+  border-color: #ff5757!important;
+}
+
+.c100[class*="p7"]:hover>span, 
+.c100[class*="p8"]:hover>span,
+.c100[class*="p9"]:hover>span,
+.c100[class*="p10"]:hover>span{
+  color: #ff5757!important;
+}
+
+.c100[class*="p4"] .bar, 
+.c100[class*="p5"] .bar, 
+.c100[class*="p6"] .bar{
+  border-color: #2ecc71!important;
+}
+
+.c100[class*="p4"]:hover>span, 
+.c100[class*="p5"]:hover>span, 
+.c100[class*="p6"]:hover>span{
+  color: #2ecc71!important;
+}
+
+.c100.p1 .bar, 
+.c100.p2 .bar, 
+.c100.p3 .bar, 
+.c100.p4 .bar, 
+.c100.p5 .bar, 
+.c100.p6 .bar, 
+.c100.p7 .bar, 
+.c100.p8 .bar, 
+.c100.p9 .bar, 
+.c100[class*="p1"] .bar, 
+.c100[class*="p2"] .bar, 
+.c100[class*="p3"] .bar{
+  border-color: #2058DC!important;
+}
+
+.c100.p1:hover>span, 
+.c100.p2:hover>span, 
+.c100.p3:hover>span, 
+.c100.p4:hover>span,  
+.c100.p5:hover>span,  
+.c100.p6:hover>span,  
+.c100.p7:hover>span,  
+.c100.p8:hover>span,  
+.c100.p9:hover>span,  
+.c100[class*="p1"]:hover>span, 
+.c100[class*="p2"]:hover>span, 
+.c100[class*="p3"] :hover>span{
+  color: #2058DC!important;
+}
+
+
+
+
+
+
+
+/***** Dashboard Button *****/
+a.tile-box.tile-box-shortcut.btn-primary {
+    color: #ffffff;
+    border-color: var(--themecolor2);
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    background: var(--themecolor1);
+}
+a.tile-box.tile-box-shortcut.btn-primary:hover {
+    background: #ffffff;
+    border-color: var(--themecolor1);
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: var(--themecolor1);
+}
+a.tile-box.tile-box-shortcut.btn-primary:active {
+    background: var(--bt-background-color-2);
+    border-color: var(--themecolor1);
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+
+
+/***** Button *****/
+.btn-primary {
+    background: #ffffff;
+    border-color: var(--themecolor2);
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: var(--themecolor1);
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: var(--bt-background-color-2);
+    border-color: var(--themecolor1);
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+.btn-primary:active {
+    background: var(--bt-background-color-2);
+    border-color: var(--themecolor1);
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+.btn-purple {
+    color: #ffffff;
+    border-color: var(--themecolor1) !important;
+    background: var(--bt-background-color-2) !important;
+}
+.btn-purple.active, .btn-purple:focus, .btn-purple:hover {
+    background: #ffffff !important;
+    border-color: var(--themecolor2) !important;
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: var(--themecolor1);
+}
+.font-purple {
+    color: #009688!important;
+}
+.border-purple {
+    border-color: #009688!important;
+}
+
+
+/***** sidebar *****/
+#sidebar-menu {
+    background: #ffffff;
+    box-shadow: rgb(136 165 191 / 48%) 1.95px 1.95px 2.6px;
+}
+#sidebar-menu > li > a {
+    padding: 5px 10px 0 0;
+    font-size: 14px;
+    height: 48px;
+    background: var(--themecolor3);
+	color: #ffffff;
+	margin-bottom: 3px;
+}
+#sidebar-menu > li > a#sidebar-menu-item-server-ip-address {
+    background: var(--themecolor4);
+}
+#sidebar-menu-item-server-ip-address{
+	color: #ff0000;
+}
+#page-sidebar ul li a .glyph-icon {
+    color: #ffffff;
+	opacity: 1;
+}
+#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
+    border-color: #ffffff;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    background: var(--themecolor5);
+    color: #fff;
+}
+#page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
+    border-color: #ffffff;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    color: var(--themecolor3);
+}
+
+#sidebar-menu li .sidebar-submenu ul li a:hover, 
+#sidebar-menu li .sidebar-submenu ul li a.sfActive{
+	background: var(--themecolor4);
+	color: #fff;
+}
+/*****list*****/
+.panel.col-md-12.ng-scope {
+    box-shadow: rgb(62 69 125 / 5%) 0px 4px 12px !important;
+}
+
+
+/***** Font *****/
+#page-title h2 {
+    color: var(--themecolor1);
+    font-weight: 600;
+}
+#page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
+    background: var(--themecolor5);
+    color: #fff;
+}
+
+
+/*badge color*/
+.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
+    background: var(--themecolor4);
+    border-color: var(--themecolor3);
+}
+
+
+
+/*Royal Technologies*/
+h1.text-transform-upr.text-center.panel-body.text-bold {
+    font-size: 0;
+	padding: 0;
+}
+
+h1.text-transform-upr.text-center.panel-body.text-bold:before {
+	content: "Royal Technologies";
+    font-size: min(max(18px, 4vw), 26px);
+    color: var(--panel-text-color) !important;
+    padding: 0;
+    background: url(https://mehdiakram.github.io/Royal-Technologies/logo%20full.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 50px;
+    background-size: 200px 41px;
+}
+
+
+.col-login-right .login-wrapper form#loginForm {
+    margin: 0 auto;
+    max-width: 350px;
+    width: 90%;
+}
+
+#loginForm .mx-30 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 410px){
+#header-nav-right #logout-btn, #notifications-btn {
+    display: block;
+}
+}
+
+
+
