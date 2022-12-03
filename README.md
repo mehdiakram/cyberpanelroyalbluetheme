@@ -1,4 +1,4 @@
-# CyberPanel Royal Blue Themes
+# CyberPanel Royal Blue Theme
 Themes you can apply to CyberPanel and make it look good :D
 
 ## Note 
