@@ -217,7 +217,7 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 
 /***** Sidebar *****/
-#page-sidebar, #header-logo{
+#header-logo{
 	box-shadow: var(--themecolor3)  1px 3px 10px;
 }
 #sidebar-menu {
