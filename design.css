@@ -29,9 +29,11 @@
 .col-login-left {
     background: var(--bt-background-color)!important;
 }
+
 h1.text-transform-upr.text-center.panel-body.text-bold {
     color: var(--themecolor1) !important;
 }
+
 button.btn.btn-success.btn-block.btn-login {
 	font-size:18px;
     background: var(--bt-background-color-2) !important;
@@ -39,23 +41,31 @@ button.btn.btn-success.btn-block.btn-login {
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
+
 button.btn.btn-success.btn-block.btn-login:hover {
     background: #ffffff !important;
     border-color: var(--themecolor2) !important;
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
     color: var(--themecolor1);
 }
+
 .form-group .input-group select.form-control:focus, 
-.form-group .input-group input.form-control:focus, button.btn.btn-login {
+.form-group .input-group input.form-control:focus, 
+button.btn.btn-login {
     border: 1px solid rgb(125 62 111 / 38%);
 }
+
+
 
 
 /***** Header *****/
 #page-header{
     background: var(--bt-background-color)!important;   
 }
-#page-header #header-nav-right {position: relative;}
+
+#page-header #header-nav-right {
+	position: relative;
+}
 
 #page-header #header-nav-right:before {
     position: absolute;
@@ -69,57 +79,65 @@ button.btn.btn-success.btn-block.btn-login:hover {
     padding-left: 200px;
 }
 
-#header-logo .logo-content-big, .logo-content-small {
+#header-logo .logo-content-big, 
+.logo-content-small {
     filter: sepia(100%);
 }
+
 #header-nav-right a#logout-btn{
 	background: #ff0000; 
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
 }
-#header-nav-right a#logout-btn:hover{background: #FAB935;}
-#header-nav-right a#logout-btn .icon-power-off:before{color:#ffffff}
+#header-nav-right a#logout-btn:hover{
+	background: #FAB935;
+}
+#header-nav-right a#logout-btn .icon-power-off:before{
+	color:#ffffff;
+}
+
+
 
 
 /***** Dashboard *****/
 .mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
 }
+
 .mx-10.col-lg-9.panel.col-md-push-50 {
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
-
 }
 
 
 /***** Resources *****/
-
 .c100 {
 	background-color: var(--themecolor5);
-	}
+}
+	
 .c100 .bar{
 	border-color: var(--themecolor1);
 	transition: all .25s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
-    -moz-transition: all .25s ease-in-out;
-    -ms-transition: all .25s ease-in-out;
-    -o-transition: all .25s ease-in-out;	
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;	
 }
 
 .c100[class*="p7"] .bar, 
 .c100[class*="p8"] .bar,
 .c100[class*="p9"] .bar,
 .c100[class*="p10"] .bar{
-  border-color: #ff5757!important;
+	border-color: #ff5757!important;
 }
 
 .c100[class*="p7"]:hover>span, 
 .c100[class*="p8"]:hover>span,
 .c100[class*="p9"]:hover>span,
 .c100[class*="p10"]:hover>span{
-  color: #ff5757!important;
+	color: #ff5757!important;
 }
 
 .c100[class*="p4"] .bar, 
@@ -128,13 +146,13 @@ button.btn.btn-success.btn-block.btn-login:hover {
 .c100[class*="p4"] .fill, 
 .c100[class*="p5"] .fill, 
 .c100[class*="p6"] .fill{
-  border-color: #2ecc71!important;
+	border-color: #2ecc71!important;
 }
 
 .c100[class*="p4"]:hover>span, 
 .c100[class*="p5"]:hover>span, 
 .c100[class*="p6"]:hover>span{
-  color: #2ecc71!important;
+	color: #2ecc71!important;
 }
 
 .c100.p1 .bar, 
@@ -149,7 +167,7 @@ button.btn.btn-success.btn-block.btn-login:hover {
 .c100[class*="p1"] .bar, 
 .c100[class*="p2"] .bar, 
 .c100[class*="p3"] .bar{
-  border-color: #2058DC!important;
+	border-color: #2058DC!important;
 }
 
 .c100.p1:hover>span, 
@@ -164,10 +182,9 @@ button.btn.btn-success.btn-block.btn-login:hover {
 .c100[class*="p1"]:hover>span, 
 .c100[class*="p2"]:hover>span, 
 .c100[class*="p3"]:hover>span{
-  color: #2058DC!important;
+	color: #2058DC!important;
 }
 
-.c100.red:hover>span
 
 
 
@@ -178,18 +195,22 @@ a.tile-box.tile-box-shortcut.btn-primary {
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
     background: var(--themecolor1);
 }
+
 a.tile-box.tile-box-shortcut.btn-primary:hover {
     background: #ffffff;
     border-color: var(--themecolor1);
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: var(--themecolor1);
 }
+
 a.tile-box.tile-box-shortcut.btn-primary:active {
     background: var(--bt-background-color-2);
     border-color: var(--themecolor1);
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
+
+
 
 
 /***** Button *****/
@@ -200,12 +221,14 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
 .btn-primary {
     background: #ffffff;
     border-color: var(--themecolor2);
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
     color: var(--themecolor1);
 }
+
 .btn-primary:hover, 
 .btn-primary:focus {
     background: var(--bt-background-color-2);
@@ -214,17 +237,20 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: #ffffff;
 	
 }
+
 .btn-primary:active {
     background: var(--bt-background-color-2);
     border-color: var(--themecolor1);
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
+
 .btn-purple {
     color: #ffffff;
     border-color: var(--themecolor1) !important;
     background: var(--bt-background-color-2) !important;
 }
+
 .btn-purple.active, 
 .btn-purple:focus, 
 .btn-purple:hover {
@@ -233,18 +259,23 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
     color: var(--themecolor1);
 }
+
 .font-purple {
     color: #009688!important;
 }
+
 .border-purple {
     border-color: #009688!important;
 }
+
+
 
 
 /***** Sidebar *****/
 #header-logo{
 	box-shadow: var(--themecolor3)  1px 3px 10px;
 }
+
 #sidebar-menu {
     background: #eaeaf157;
     box-shadow: var(--themecolor3)  1px 3px 10px;
@@ -259,20 +290,21 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 #sidebar-menu > li > a {
 	cursor: pointer;
-    padding: 5px 10px 0 0;
-    font-size: 14px;
-    height: 48px;
-    background: var(--themecolor3);
+	padding: 5px 10px 0 0;
+	font-size: 14px;
+	height: 48px;
+	background: var(--themecolor3);
 	color: #ffffff;
 	margin-bottom: 3px;
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;	
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;	
 }
+
 #sidebar-menu > li > a#sidebar-menu-item-server-ip-address {
-    background: var(--themecolor4);
+	background: var(--themecolor4);
 }
 
 #sidebar-menu > li > a#sidebar-menu-item-server-ip-address span {
@@ -282,10 +314,12 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 #sidebar-menu-item-server-ip-address{
 	color: #ff0000;
 }
+
 #page-sidebar ul li a .glyph-icon {
     color: #ffffff;
 	opacity: 1;
 }
+
 #page-sidebar ul li.sfHover > a.sf-with-ul, 
 #page-sidebar ul li a:hover {
     border-color: #ffffff;
@@ -293,12 +327,14 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     background: var(--themecolor5);
     color: #fff;
 }
+
 #page-sidebar ul li.sfActive > a.sf-with-ul, 
 #page-sidebar ul li a:active {
     border-color: #ffffff;
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
     color: var(--themecolor3);
 }
+
 #sidebar-menu li .sidebar-submenu ul li a{
 	transition: all .5s ease-in-out;
 	-webkit-transition: all .25s ease-in-out;
@@ -328,11 +364,14 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 }
 
 
+
+
 /***** Font *****/
 #page-title h2 {
     color: var(--themecolor1);
     font-weight: 600;
 }
+
 #page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, 
 .content-box-header.bg-default>.ui-tabs-nav li>a:hover, 
 .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, 
@@ -348,11 +387,18 @@ table.dataTable thead th.sorting_desc:after {
 }
 
 
+
+
 /***** Badge color *****/
-.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
+.badge-yellow, 
+.bg-yellow, 
+.btn-yellow, 
+.hover-yellow:hover, 
+.label-yellow {
     background: var(--themecolor4);
     border-color: var(--themecolor3);
 }
+
 
 
 
@@ -390,11 +436,10 @@ h1.text-transform-upr.text-center.panel-body.text-bold:before {
     right: 0;
 }
 
-
 .col-login-right .login-wrapper form#loginForm {
-    margin: 0 auto;
-    max-width: 350px;
-    width: 90%;
+	margin: 0 auto;
+	max-width: 350px;
+	width: 90%;
 	padding: 0;
 }
 
@@ -408,7 +453,9 @@ h1.text-transform-upr.text-center.panel-body.text-bold:before {
 
 /***** Show Logout for Mobile & Tab *****/
 @media only screen and (max-width: 600px){
-#header-nav-right #logout-btn {display: block;}
+#header-nav-right #logout-btn {
+	display: block;
+}
 
 #page-header #header-nav-right:before {
     height: 33px;
@@ -432,9 +479,9 @@ h1.text-transform-upr.text-center.panel-body.text-bold:before {
 }
 
 #page-header #header-nav-right {
-    padding: 40px 0px 0 0;
-    margin: 5px 5px 0 0;
-    max-width: calc(100% - 143px);
+	padding: 40px 0px 0 0;
+	margin: 5px 5px 0 0;
+	max-width: calc(100% - 143px);
 	float: right;
 	overflow: hidden;
 }
