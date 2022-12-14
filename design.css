@@ -149,7 +149,7 @@ button.btn.btn-success.btn-block.btn-login:hover {
 .c100[class*="p1"] .bar, 
 .c100[class*="p2"] .bar, 
 .c100[class*="p3"] .bar{
-  border-color: var(--themecolor1)!important;
+  border-color: #2058DC!important;
 }
 
 .c100.p1:hover>span, 
@@ -164,7 +164,7 @@ button.btn.btn-success.btn-block.btn-login:hover {
 .c100[class*="p1"]:hover>span, 
 .c100[class*="p2"]:hover>span, 
 .c100[class*="p3"]:hover>span{
-  color: var(--themecolor1)!important;
+  color: #2058DC!important;
 }
 
 .c100.red:hover>span
